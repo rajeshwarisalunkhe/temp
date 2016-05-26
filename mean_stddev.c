@@ -14,7 +14,7 @@ int main(void)
 {
 
 	int array[15] = {-6, -12, 8, 13, 11, 6, 7, 2, -6, -9, -10, 11, 10, 9, 2}, i;
-	float mean, sum, ans;
+	float mean, sum = 0, ans;
 
 	for(i = 0;i < SIZE;i++)
 	{
